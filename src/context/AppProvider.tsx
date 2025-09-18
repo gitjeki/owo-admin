@@ -51,7 +51,6 @@ export interface HisenseData {
   processHistory: { tanggal: string; status: string; keterangan: string }[];
   q: string;
   npsn: string;
-  [key: string]: string | number | boolean | null; // for other properties like iprop, ikab etc.
 }
 
 export interface SchoolData {
